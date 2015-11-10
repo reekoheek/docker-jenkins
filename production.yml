@@ -1,4 +1,0 @@
-jenkins:
-  extends:
-    file: base.yml
-    service: jenkins

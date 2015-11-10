@@ -1,8 +1,0 @@
-jenkins:
-  build: .
-  restart: always
-  ports:
-    - "8081:8080"
-    - "50000:50000"
-  volumes:
-    - /srv/jenkins/home:/var/jenkins_home
